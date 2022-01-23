@@ -144,7 +144,7 @@ form.example::after {
         </tr>
        
        <?php
-	$dbc = mysqli_connect ("localhost","root","root1234","ibewebsite");
+	$dbc = mysqli_connect ("localhost","root","","ibewebsite");
    if (mysqli_connect_errno())
       {
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
