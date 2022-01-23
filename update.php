@@ -167,7 +167,7 @@ form.example::after {
 	 <?php
      $cssm = $_GET['cssm'];
 	 
-     $dbc = mysqli_connect ("localhost","root","","ibewebsite");
+     $dbc = mysqli_connect ("localhost","root","root1234","ibewebsite");
      if (mysqli_connect_errno())
       {
       echo "Failed to connect to MySQL: ".mysqli_connect_error();

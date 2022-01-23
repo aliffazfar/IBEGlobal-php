@@ -16,7 +16,7 @@ $cdescription=$_POST['cdescription'];
 
 // To open the database and make connection to server
 
-$dbc = mysqli_connect ("localhost","root","","ibewebsite");
+$dbc = mysqli_connect ("localhost","root1234","","ibewebsite");
 
 if (mysqli_connect_errno())
    {
